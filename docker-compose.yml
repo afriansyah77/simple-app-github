@@ -1,6 +1,6 @@
 version: "3"
 services:
   webserver:
-    image: ghcr.io/afrisyah77/nginx-btatest
+    image: ghcr.io/afrisyah77/nginx-btatest:latest
     ports:
       - "8080:80"
